@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <script type="text/javascript">
+
+        function randomNumber(maxValue){
+            return Math.floor(Math.random() * maxValue);
+            }
+
+        var FirstNames = [];
+        FirstNames.push('Jared');
+        FirstNames.push('Austin');
+        FirstNames.push('Jacob ');
+        FirstNames.push('Michael ');
+        FirstNames.push('Josh ');
+
+        var LastNames = [];
+        LastNames.push('Adkins');
+        LastNames.push('West');
+        LastNames.push('Insco');
+        LastNames.push('Laxton');
+        LastNames.push('Wahner');
+
+        var FirstNamesIndex = randomNumber(FirstNames.length);
+        var LastNamesIndex = randomNumber(LastNames.length);
+
+        console.log(FirstNames[FirstNamesIndex]);
+        console.log(LastNames[LastNamesIndex]);
+        </script>
+    </head>
+</html>
